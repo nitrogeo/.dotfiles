@@ -102,6 +102,8 @@ matches:
     replace: "./scripts/clean-arch.sh"
   - trigger: "/cr"
     replace: "clear"
+  - trigger: "/sync"
+    replace: "./scripts/sync-dots.sh"
 
   # dyanmic
   - trigger: ":now"
